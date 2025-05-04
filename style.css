@@ -1084,15 +1084,3 @@ footer.min-footer .contenar p {
 
 }
 
-@media screen and (max-width: 760px) {
-    section.hero .contenar {
-        background-size: cover;
-    }
-
-    .general-contenar {
-        width: 100%;
-        flex-wrap: wrap;
-        margin: 0 20px;
-    }
-
-}
