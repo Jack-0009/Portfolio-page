@@ -5,7 +5,7 @@
 
 :root {
     --background-color: #000;
-    --second-background-color : #0c0c0c;
+    --second-background-color: #0c0c0c;
     --text-color: #f9f9f9;
     --second-color: #5CD2B9;
     --container-max-width: 1150px;
@@ -64,6 +64,7 @@
 nav {
     background-color: #151515;
 }
+
 nav .contenar {
     justify-content: space-between;
     align-items: center;
@@ -73,10 +74,12 @@ nav .contenar {
 nav .logo img {
     width: 200px;
 }
-.menu , .menu ul  {
+
+.menu,
+.menu ul {
     display: flex;
     gap: 25px;
-    
+
 }
 
 .menu-icon {
@@ -84,10 +87,11 @@ nav .logo img {
     color: var(--text-color);
     cursor: pointer;
 }
+
 .menu ul li {
     list-style: none;
     font-family: var(--font-famly);
-    font-weight:600
+    font-weight: 600
 }
 
 nav .menu ul li a {
@@ -103,6 +107,7 @@ nav .search i {
     color: var(--second-color);
     cursor: pointer;
 }
+
 nav .search i:hover {
     color: var(--text-color);
 }
@@ -110,7 +115,7 @@ nav .search i:hover {
 /* ========================= */
 /* hero */
 section.hero {
-    height: 90vh; 
+    height: 90vh;
     background: #0C0C0C;
     overflow: hidden;
 }
@@ -123,6 +128,7 @@ section.hero .contenar {
     display: flex;
     align-items: center;
 }
+
 section.hero .contenar::before {
     content: "";
     position: absolute;
@@ -149,7 +155,7 @@ section.hero .text h1 {
 }
 
 
-section.hero .text p ,
+section.hero .text p,
 section.Services .contenar .Services-txt p {
     width: 46%;
 }
@@ -185,9 +191,11 @@ section.hero .text .play i {
     0% {
         box-shadow: 0 0 0 0 rgba(0, 255, 204, 0.7);
     }
+
     70% {
         box-shadow: 0 0 0 20px rgba(0, 255, 204, 0);
     }
+
     100% {
         box-shadow: 0 0 0 0 rgba(0, 255, 204, 0);
     }
@@ -198,7 +206,7 @@ section.hero .text .play i {
 section.hero .text .lien2 {
     width: 100px;
     height: 2px;
-    background-color:#aaaaaa61;
+    background-color: #aaaaaa61;
     margin: 30px 0;
 }
 
@@ -214,9 +222,9 @@ section.Services {
     background-color: var(--background-color);
 }
 
-section.Services .contenar{
+section.Services .contenar {
     justify-content: space-between;
-    padding: 100px  0;
+    padding: 100px 0;
     height: 100%;
 }
 
@@ -239,7 +247,7 @@ section.Services .contenar .Services-txt button:hover {
 }
 
 
-section.Services .contenar .Services{
+section.Services .contenar .Services {
     display: flex;
 }
 
@@ -247,13 +255,13 @@ section.Services .contenar .Services-txt p {
     width: 406px;
 }
 
-section.Services .contenar .Services .card-1 img ,
-section.Services .contenar .Services .card-2 img{
+section.Services .contenar .Services .card-1 img,
+section.Services .contenar .Services .card-2 img {
     width: 60px;
     margin-bottom: 10px;
 }
 
-section.Services .contenar .Services .card-1 ,
+section.Services .contenar .Services .card-1,
 section.Services .contenar .Services .card-2 {
     width: 250px;
     height: 200px;
@@ -279,11 +287,11 @@ section.Services .contenar .Services .card-2 p {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 10px;
-} 
+}
 
 section.Services .contenar .Services .card-1 {
     background-color: #0c0c0c;
-    
+
 }
 
 section.Services .contenar .Services .card-2 {
@@ -306,10 +314,10 @@ section.Services .contenar .Services .card-2:hover {
     background: #0c0c0c;
 }
 
-section.Services .contenar .Services .card-1:hover p ,
+section.Services .contenar .Services .card-1:hover p,
 section.Services .contenar .Services .card-2:hover p {
     color: var(--text-color);
-    
+
 }
 
 section.Services .contenar .Services .card-1:hover h4,
@@ -321,10 +329,11 @@ section.Services .contenar .Services .card-2:hover h4 {
 /* ================================ */
 /* aboutUs */
 
-section.aboutUs{
+section.aboutUs {
     background-color: var(--second-background-color);
     overflow: hidden;
 }
+
 section.aboutUs .contenar {
     justify-content: space-between;
     padding: 100px 0 0 0;
@@ -363,7 +372,7 @@ section.average .contenar {
     position: relative;
     align-items: center;
     justify-content: space-around;
-    z-index: 2; 
+    z-index: 2;
 }
 
 section.average::before {
@@ -379,7 +388,7 @@ section.average::before {
     background-attachment: fixed;
     background-size: cover;
     filter: brightness(0.3);
-    z-index: 1; 
+    z-index: 1;
 }
 
 section.average::after {
@@ -391,7 +400,7 @@ section.average::after {
     height: 100%;
     background: linear-gradient(90deg, rgba(92, 210, 185, 1) 0%, rgba(1, 2, 2, 1) 100%);
     opacity: 0.25;
-    z-index: 2; 
+    z-index: 2;
 }
 
 
@@ -429,7 +438,7 @@ section.Last-Project .contenar {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 100px 0 ;
+    padding: 100px 0;
 
 }
 
@@ -447,13 +456,13 @@ section.Last-Project .contenar .Project-txt ul li {
     font-size: 17px;
 }
 
-section.Last-Project .contenar .Project-txt ul li i{
+section.Last-Project .contenar .Project-txt ul li i {
     color: var(--second-color);
     margin: 10px;
 }
 
 
-section.Last-Project .contenar .Project-img-top img ,
+section.Last-Project .contenar .Project-img-top img,
 section.Last-Project .contenar .Project-img-bottom img {
     width: 370px;
     margin: 20px 10px 0px 0;
@@ -472,7 +481,7 @@ section.Companies .contenar {
     position: relative;
     align-items: center;
     justify-content: space-around;
-    z-index: 3; 
+    z-index: 3;
 }
 
 section.Companies::before {
@@ -488,7 +497,7 @@ section.Companies::before {
     background-attachment: fixed;
     background-size: cover;
     filter: brightness(0.3);
-    z-index: 1; 
+    z-index: 1;
 }
 
 section.Companies::after {
@@ -500,7 +509,7 @@ section.Companies::after {
     height: 100%;
     background: linear-gradient(-90deg, rgba(92, 210, 185, 1) 0%, rgba(1, 2, 2, 1) 100%);
     opacity: 0.25;
-    z-index: 2; 
+    z-index: 2;
 }
 
 section.Companies .contenar img {
@@ -518,7 +527,7 @@ section.Companies .contenar img:hover {
 
 section.ChooseUs {
     background-color: var(--second-background-color);
-    
+
 }
 
 section.ChooseUs .contenar {
@@ -552,7 +561,7 @@ section.ChooseUs .top-side ul li i {
 }
 
 
-section.ChooseUs .contenar .top-side img ,
+section.ChooseUs .contenar .top-side img,
 section.ChooseUs .contenar .bottom-side img {
     width: 550px;
     height: 300px;
@@ -568,6 +577,7 @@ section.ChooseUs .contenar .bottom-side {
 section.ChooseUs .contenar .ChooseUs-img {
     position: relative;
 }
+
 section.ChooseUs .contenar .ChooseUs-img i {
     position: absolute;
     top: 50%;
@@ -578,11 +588,12 @@ section.ChooseUs .contenar .ChooseUs-img i {
     font-weight: 300;
     transition: 0.5s;
 }
+
 section.ChooseUs .contenar .ChooseUs-img i:hover {
     color: #fff;
 }
 
-section.ChooseUs .contenar .txt-right ,
+section.ChooseUs .contenar .txt-right,
 section.ChooseUs .contenar .bottom-side .img-bottom {
     transform: translateY(80px);
 }
@@ -599,7 +610,7 @@ section.OurTeam {
 
 section.OurTeam .contenar {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
     display: block;
 }
 
@@ -616,7 +627,7 @@ section.OurTeam::before {
     background-attachment: fixed;
     background-size: cover;
     filter: brightness(0.5);
-    z-index: 1; 
+    z-index: 1;
 }
 
 section.OurTeam .contenar .OurTeam-txt {
@@ -628,7 +639,7 @@ section.OurTeam .contenar .OurTeam-txt {
 }
 
 
-section.OurTeam .contenar .OurTeam-txt p{
+section.OurTeam .contenar .OurTeam-txt p {
     padding: 0em 10em;
 
 }
@@ -649,7 +660,7 @@ section.OurTeam .contenar .OurTeam-img-card {
     padding: 10px;
     width: 540px;
     height: 250px;
-    
+
     background-color: var(--second-background-color);
 
 }
@@ -747,7 +758,7 @@ section.Testimonials::before {
     background-attachment: fixed;
     background-size: cover;
     filter: brightness(0.5);
-    z-index: 1; 
+    z-index: 1;
 }
 
 section.Testimonials .contenar {
@@ -755,7 +766,7 @@ section.Testimonials .contenar {
     align-items: center;
     padding: 100px 0;
     position: relative;
-    z-index: 2; 
+    z-index: 2;
     gap: 20px;
 }
 
@@ -820,7 +831,7 @@ section.Testimonials .contenar .Testimonials-img .Testimonials-img-card-icon {
 section.Testimonials .contenar .Testimonials-img i {
     color: var(--second-color);
     font-size: 70px;
-} 
+}
 
 /* ========================== */
 /* Our-blog */
@@ -911,7 +922,7 @@ section.Contact-us::before {
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 1; 
+    z-index: 1;
 }
 
 section.Contact-us .contenar {
@@ -919,7 +930,7 @@ section.Contact-us .contenar {
     align-items: center;
     padding: 100px 0;
     position: relative;
-    z-index: 2; 
+    z-index: 2;
     gap: 20px;
 }
 
@@ -929,8 +940,8 @@ section.Contact-us .contenar .Contact-us-form form {
 
 }
 
-section.Contact-us .contenar .Contact-us-form input ,
-section.Contact-us .contenar .Contact-us-form textarea ,
+section.Contact-us .contenar .Contact-us-form input,
+section.Contact-us .contenar .Contact-us-form textarea,
 section.Contact-us .contenar .Contact-us-form button {
     width: 100%;
     padding: 15px;
@@ -965,13 +976,15 @@ section.Contact-us .contenar .Contact-us-txt .cont-icn {
     display: flex;
     gap: 20px;
 }
-section.Contact-us .contenar .Contact-us-txt .cont-icn i{
+
+section.Contact-us .contenar .Contact-us-txt .cont-icn i {
     font-size: 40px;
     color: var(--second-color);
     margin-bottom: 30px;
     transform: translateY(-10px);
     transition: 0.4s;
 }
+
 section.Contact-us .contenar .Contact-us-txt .cont-icn i:hover {
     transform: translateY(-20px);
 }
@@ -993,10 +1006,11 @@ footer.big-footer {
     background: #112622;
     background: radial-gradient(circle, rgba(17, 38, 34, 1) 0%, rgba(2, 1, 1, 1) 100%);
 }
+
 footer.big-footer .contenar {
     padding: 100px 0;
     display: block;
-} 
+}
 
 footer.big-footer .contenar .img {
     display: flex;
@@ -1009,8 +1023,8 @@ footer.big-footer .contenar .img img {
     margin-bottom: 70px;
 }
 
-footer.big-footer .contenar ul ,
-footer.big-footer .contenar .footer-icn{
+footer.big-footer .contenar ul,
+footer.big-footer .contenar .footer-icn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1078,9 +1092,9 @@ footer.min-footer .contenar p {
     nav .menu-icon {
         display: block;
     }
+
     nav .menu-icon i {
         font-size: 20px;
     }
 
 }
-
