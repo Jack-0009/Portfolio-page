@@ -20,7 +20,6 @@
     width: var(--container-max-width);
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
     height: 100%;
 }
 
@@ -76,7 +75,6 @@ nav .logo img {
 }
 .menu , .menu ul  {
     display: flex;
-    flex-wrap: wrap;
     gap: 25px;
     
 }
@@ -123,7 +121,6 @@ section.hero .contenar {
     background-repeat: no-repeat;
     height: 100%;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
 }
 section.hero .contenar::before {
@@ -160,7 +157,6 @@ section.Services .contenar .Services-txt p {
 
 section.hero .text .con-play {
     display: flex;
-    flex-wrap: wrap;
 }
 
 section.hero .text .play-txt {
@@ -174,7 +170,6 @@ section.hero .text .play {
     border-radius: 50%;
     position: relative;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     animation: pulse 2s infinite;
@@ -246,7 +241,6 @@ section.Services .contenar .Services-txt button:hover {
 
 section.Services .contenar .Services{
     display: flex;
-    flex-wrap: wrap;
 }
 
 section.Services .contenar .Services-txt p {
@@ -343,7 +337,6 @@ section.aboutUs .aboutUs-img img {
 
 section.aboutUs .aboutUs-icn {
     display: flex;
-    flex-wrap: wrap;
 }
 
 section.aboutUs .aboutUs-icn img {
@@ -434,7 +427,6 @@ section.Last-Project {
 
 section.Last-Project .contenar {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 100px 0 ;
@@ -536,7 +528,6 @@ section.ChooseUs .contenar {
 
 section.ChooseUs .contenar .top-side {
     display: flex;
-    flex-wrap: wrap;
 
 }
 
@@ -571,7 +562,6 @@ section.ChooseUs .contenar .bottom-side img {
 
 section.ChooseUs .contenar .bottom-side {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -793,7 +783,6 @@ section.Testimonials .contenar .Testimonials-img {
 
 section.Testimonials .contenar .Testimonials-img-card-img {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -824,7 +813,6 @@ section.Testimonials .contenar .Testimonials-img-card-img h4 {
 
 section.Testimonials .contenar .Testimonials-img .Testimonials-img-card-icon {
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-end;
     transform: translate(3px, -40px);
 }
@@ -864,7 +852,6 @@ section.Our-blog .contenar .Our-blog-txt p {
 
 section.Our-blog .contenar .Our-blog-card {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
@@ -888,7 +875,6 @@ section.Our-blog .contenar .Our-blog-card .Our-blog-img h3 {
 
 section.Our-blog .contenar .Our-blog-card .Our-blog-img .date {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     gap: 50px;
 }
@@ -977,7 +963,6 @@ section.Contact-us .contenar .Contact-us-form button:hover {
 
 section.Contact-us .contenar .Contact-us-txt .cont-icn {
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
 }
 section.Contact-us .contenar .Contact-us-txt .cont-icn i{
@@ -1015,7 +1000,6 @@ footer.big-footer .contenar {
 
 footer.big-footer .contenar .img {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -1028,7 +1012,6 @@ footer.big-footer .contenar .img img {
 footer.big-footer .contenar ul ,
 footer.big-footer .contenar .footer-icn{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -1097,6 +1080,19 @@ footer.min-footer .contenar p {
     }
     nav .menu-icon i {
         font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    section.hero .contenar {
+        background-size: cover;
+    }
+
+    .general-contenar {
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0 20px;
     }
 
 }
